@@ -1,0 +1,78 @@
+html,body{
+  /*  width: 100%; */
+    height: 100%;
+}
+body{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    /*width: 700px;*/
+    height: auto;
+    width: 100%;
+    text-align: center;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: auto;
+    padding-bottom: 20px;
+
+    background-color: #6F3A1B;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Vina Sans";
+
+    margin-bottom: 70px;
+    
+}
+main{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+article{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: #1B506F;
+    border-radius: 6px;
+
+    font-family: "Karla";
+    color: white;
+    font-size: xx-small;
+    font-weight: lighter;
+    text-align: center;
+
+}
+img{
+    border-radius: 100%;
+}
+footer{
+margin-top: 70px;
+    
+    width: 100%;
+
+    text-align: center;
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: 10px;
+    padding-bottom: auto;
+
+    font-weight: lighter;
+    background-color: #6F3A1B;
+    color: white;
+    font-family: "Karla";
+}
